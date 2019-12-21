@@ -89,12 +89,12 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "."
+  spec.source_files  = "HideKeyboardWhenTappedAround/*.swift"
   # spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "4.2" 
 
 
-  spec.public_header_files = "./**/*.h"
+  spec.public_header_files = "HideKeyboardWhenTappedAround/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
