@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6FA6128B23AEAA6700E095B2 /* HideKeyboardWhenTappedAround.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA6128923AEAA6700E095B2 /* HideKeyboardWhenTappedAround.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FA6129223AEAA8D00E095B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6129123AEAA8D00E095B2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6FA6128623AEAA6700E095B2 /* HideKeyboardWhenTappedAround.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HideKeyboardWhenTappedAround.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA6128923AEAA6700E095B2 /* HideKeyboardWhenTappedAround.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HideKeyboardWhenTappedAround.h; sourceTree = "<group>"; };
 		6FA6128A23AEAA6700E095B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA6129123AEAA8D00E095B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				6FA6128923AEAA6700E095B2 /* HideKeyboardWhenTappedAround.h */,
 				6FA6128A23AEAA6700E095B2 /* Info.plist */,
+				6FA6129123AEAA8D00E095B2 /* ViewController.swift */,
 			);
 			path = HideKeyboardWhenTappedAround;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					6FA6128523AEAA6700E095B2 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA6129223AEAA8D00E095B2 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		6FA6128F23AEAA6700E095B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W54T52DTR7;
@@ -268,6 +274,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HideKeyboardWhenTappedAround/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,6 +283,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rxshri99.HideKeyboardWhenTappedAround;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +293,7 @@
 		6FA6129023AEAA6700E095B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = W54T52DTR7;
@@ -292,6 +302,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HideKeyboardWhenTappedAround/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rxshri99.HideKeyboardWhenTappedAround;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
