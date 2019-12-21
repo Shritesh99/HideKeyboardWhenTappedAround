@@ -5,7 +5,8 @@ A small Swift Framework for hiding keyboard when the user tapped anywhere in UIV
 ```
  pod 'HideKeyboardWhenTappedAround'
 ```
-
+### Screenshot
+![ss](https://raw.githubusercontent.com/Shritesh99/HideKeyboardWhenTappedAround/master/gif/ss.gif)
 ### Usage
 
 - Import `HideKeyboardWhenTappedAround` in only one UIViewController.
