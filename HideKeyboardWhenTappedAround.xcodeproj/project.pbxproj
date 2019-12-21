@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F52C1F723AEC18800A382CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FA6128A23AEAA6700E095B2 /* Info.plist */; };
 		6FA6128B23AEAA6700E095B2 /* HideKeyboardWhenTappedAround.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA6128923AEAA6700E095B2 /* HideKeyboardWhenTappedAround.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FA6129223AEAA8D00E095B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6129123AEAA8D00E095B2 /* ViewController.swift */; };
 		BD9D10821EDE0D154F0F88CB /* Pods_HideKeyboardWhenTappedAround.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B1DF977F1B9B254ABB0219 /* Pods_HideKeyboardWhenTappedAround.framework */; };
@@ -151,7 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F52C1F723AEC18800A382CE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
